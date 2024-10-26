@@ -1,5 +1,5 @@
-# Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### Mahima Chakraborty
+# Report: Predict Bike Sharing Demand with AutoGluon 
+#### Author: Mahima Chakraborty
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
@@ -22,22 +22,18 @@ There was not a significant change in the model performance after hyperparameter
 ### If you were given more time with this dataset, where do you think you would spend more time?
 I was unable to spend much time on the dataset because I have my exams coming up. However, if I had more time, I would have thought of more features that I could add and tried to improve the score as much as possible by focusing on EDA and finding out hidden relationships within the data.
 
-### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
+### Table showing the models run, the hyperparameters modified, and the kaggle score obtained
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
 |initial|default values|default values|default values|1.80|
 |add_features|default values|default values|default values|0.53|
 |hpo|GBM: num_leaves: lower=26, upper=66|XGB: max_depth lower=5, upper=9|refit_full='best'|1.50|
 
-### Create a line plot showing the top model score for the three (or more) training runs during the project.
-
-TODO: Replace the image below with your own.
+### Line plot showing the top model score for the three (or more) training runs during the project.
 
 ![model_train_score.png](img/model_train_score.png)
 
-### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
-
-TODO: Replace the image below with your own.
+### Line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 ![model_test_score.png](img/model_test_score.png)
 
